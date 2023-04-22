@@ -4,7 +4,7 @@ const config: MysqlConnectionOptions = {
   type: 'mysql',
   database: 'nest',
   username: 'root',
-  password: '',
+  password: 'root',
   port: 3306,
   host: '127.0.0.1',
   entities: ['dist/models/**/*.entity{.ts,.js}'],

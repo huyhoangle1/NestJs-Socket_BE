@@ -22,7 +22,9 @@ export class ConversationsController {
 
   @Get('/')
   async index() {
-    return this.conversationService.findAll(['users']);
+    return this.conversationService.findAll([
+      'users',
+    ]);
   }
 
   @Get('/:id')
